@@ -2,5 +2,5 @@ import { test, expect } from '@playwright/test';
 
 test('basic test', async ({ page }) => {
   await page.goto('/');
-  await expect(page.locator('div div')).toContainText('This HTTP triggered function executed successfully');
+  await expect(page.locator('div div')).toContainText('');
 })
